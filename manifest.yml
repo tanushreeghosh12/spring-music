@@ -2,6 +2,7 @@
 applications:
 - name: spring-music
   memory: 1G
-  random-route: true
+  instances: 2
   path: build/libs/spring-music.jar
-
+  routes:
+  - route: tanushree-spring.cfapps.io
