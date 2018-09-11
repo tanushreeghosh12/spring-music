@@ -17,7 +17,7 @@ public class MongoLocalConfig {
     public MongoDbFactory mongoDbFactory() {
         try {
             return new SimpleMongoDbFactory(new MongoClient(), "music");
-        } catch (UnknownHostException e) {
+        } catch (Exception e) {
             throw new RuntimeException("Error creating MongoDbFactory: " + e);
         }
     }
