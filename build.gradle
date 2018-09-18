@@ -42,6 +42,7 @@ dependencies {
     // Spring security
     compile "org.springframework.boot:spring-boot-starter-security"
     testCompile "org.springframework.boot:spring-boot-starter-test"
+    compile "org.springframework.security.oauth:spring-security-oauth2"
 
 
     // Spring Cloud Connectors

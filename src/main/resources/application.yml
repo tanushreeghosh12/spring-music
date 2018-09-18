@@ -5,10 +5,12 @@ spring:
     generate-ddl: true
 security:
  basic:
-  oauth2:
+  enabled: false
+ oauth2:
    client:
-    client-id: e0f8eb4d-b92d-4049-9dcc-d13e26583a5d
-    client-secret: e0f8eb4d-b92d-4049-9dcc-d13e26583a5d
-   resource: token-info-uri=http://localhost:8080/oauth/check_token
+    client-id: 50c6a4d6-f973-4122-b1ed-73da40289eec
+    client-secret: 89bedafd-6f5b-45de-a283-6f2a298413f2
+   resource:
+    token-info-uri: http://localhost:8080/oauth/check_token
 server:
  port: 8095
