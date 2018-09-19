@@ -46,6 +46,7 @@ dependencies {
 
 
     // Spring Cloud Connectors
+    compile "org.springframework.cloud:spring-cloud-starter-sleuth:${springCloudConnectorsVersion}"
     compile "org.springframework.cloud:spring-cloud-core:${springCloudConnectorsVersion}"
     compile "org.springframework.cloud:spring-cloud-spring-service-connector:${springCloudConnectorsVersion}"
     compile "org.springframework.cloud:spring-cloud-cloudfoundry-connector:${springCloudConnectorsVersion}"

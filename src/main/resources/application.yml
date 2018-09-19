@@ -1,16 +1,18 @@
 
 ---
 spring:
+  application:
+    name: "Spring-Music-Slueth"
   jpa:
     generate-ddl: true
 security:
  basic:
   enabled: false
- oauth2:
-   client:
-    client-id: 50c6a4d6-f973-4122-b1ed-73da40289eec
-    client-secret: 89bedafd-6f5b-45de-a283-6f2a298413f2
-   resource:
-    token-info-uri: http://localhost:8080/oauth/check_token
+# oauth2:
+  # client:
+  #  client-id: 50c6a4d6-f973-4122-b1ed-73da40289eec
+  #  client-secret: 89bedafd-6f5b-45de-a283-6f2a298413f2
+  # resource:
+  #  token-info-uri: http://localhost:8080/oauth/check_token
 server:
  port: 8095
