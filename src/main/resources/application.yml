@@ -8,11 +8,12 @@ spring:
 security:
  basic:
   enabled: false
-# oauth2:
+ oauth2:
   # client:
   #  client-id: 50c6a4d6-f973-4122-b1ed-73da40289eec
   #  client-secret: 89bedafd-6f5b-45de-a283-6f2a298413f2
-  # resource:
+   resource:
   #  token-info-uri: http://localhost:8080/oauth/check_token
+     id: oauth2_id
 server:
  port: 8095
